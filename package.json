@@ -1,0 +1,43 @@
+{
+  "name": "create-verb",
+  "version": "1.0.0",
+  "description": "Create Verb fullstack applications with one command",
+  "type": "module",
+  "bin": {
+    "create-verb": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outfile=dist/index.js --target=node --format=esm",
+    "dev": "bun src/index.ts",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "verb",
+    "bun",
+    "fullstack",
+    "react",
+    "typescript",
+    "cli",
+    "create"
+  ],
+  "author": "Verb Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verbjs/create-verb.git"
+  },
+  "homepage": "https://github.com/verbjs/create-verb",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
