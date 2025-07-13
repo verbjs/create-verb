@@ -1,5 +1,5 @@
 {
-  "name": "create-verb",
+  "name": "@verb/create",
   "version": "1.0.0",
   "description": "Create Verb fullstack applications with one command",
   "type": "module",
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "https://github.com/verbjs/create-verb.git"
   },
-  "homepage": "https://github.com/verbjs/create-verb",
+  "homepage": "https://verb.codes",
   "engines": {
     "bun": ">=1.0.0"
   },
